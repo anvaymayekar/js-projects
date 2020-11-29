@@ -87,7 +87,7 @@ function Arithmetic(){
 	}
 }
 
-//Deployment of the given function
+//Deploying the function
 const arithmetic = new Arithmetic()
 var create = arithmetic.createAP(2, 2, 5)
 var res = arithmetic.getSum(5000, 2000, 12)
@@ -100,4 +100,5 @@ var arithmeticTerm = arithmetic.getTerm(1000, -40, 12)
 var sd = arithmetic.getDifferenceBySum(1000, 12, 9360)
 var apState = arithmetic.isArithmeticProgression(2,3,4,7)
 
+//Exporting the function
 module.exports = Arithmetic
