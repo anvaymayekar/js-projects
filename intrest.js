@@ -44,12 +44,12 @@ function Intrest(principal, rate, number){
 	}
 }
 
-//Deploying the function
+// deploying the function
 const int = new Intrest(1000, 10, 3)
 console.log(int.simpleIntrest())
 int.getSimpleIntrest()
 console.log(int.compoundIntrest())
 int.getCompoundIntrest()
 
-//exporting the function
+// exporting the function
 module.export = Intrest
