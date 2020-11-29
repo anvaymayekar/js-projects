@@ -47,5 +47,5 @@ var det = quadEquation.getDeterminant()
 var nat = quadEquation.getNatureOfTheRoots()
 var root = quadEquation.getRoots()
 var quad = quadEquation.frameQuadraticEquation(0, 4)
-console.log(nat)
+
 module.exports = QuadraticEquation
