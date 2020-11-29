@@ -42,10 +42,12 @@ function QuadraticEquation(a, b, c){
 	}
 }
 
+// Deploying the function
 const quadEquation = new QuadraticEquation(1, 2, 9)
 var det = quadEquation.getDeterminant()
 var nat = quadEquation.getNatureOfTheRoots()
 var root = quadEquation.getRoots()
 var quad = quadEquation.frameQuadraticEquation(0, 4)
 
+// Exporting the function
 module.exports = QuadraticEquation
