@@ -93,6 +93,6 @@ const num = arithmetic.getNumber(12, 4, 248)
 const fts = arithmetic.getFirstTermBySum(-40, 12, 9360)
 const arithmeticTerm = arithmetic.getTerm(1000, -40, 12)
 const sd = arithmetic.getDifferenceBySum(1000, 12, 9360)
-console.log(arithmetic.isArithmeticProgression(2,3,4,7))
+const apState = arithmetic.isArithmeticProgression(2,3,4,7)
+
 module.exports = Arithmetic
-console.log(sd)
