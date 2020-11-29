@@ -13,9 +13,9 @@ function QuadraticEquation(a, b, c){
 	}
 
 	this.getNatureOfTheRoots = function(){
-		let condition = determinant > theta
-		let sign = "="
-		let nature = "real and equal"
+		condition = determinant > theta
+		sign = "="
+		nature = "real and equal"
 		if (determinant > theta){
 			sign = ">"
 			nature = "real and unequal"
