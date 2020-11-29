@@ -5,12 +5,12 @@ function Arithmetic(){
 	let checkAP = (...sequence) => {
 		var difference = []
 		var state = false
-		//This loop iterates through the given sequence to get difference by subtracting the current term(i) from its next term(i+delta) 
-		//where delta is 1 and appends it into its dedicated difference array
+		// This loop iterates through the given sequence to get difference by subtracting the current term(i) from its next term(i+delta) 
+		// where delta is 1 and appends it into its dedicated difference array
 		for (i = lambda; i < sequence.length-delta; i++)
 			difference.push(sequence[i+delta] - sequence[i])
-		//This loop iterates through difference array and checks whether the common difference is constant by subtracting the current term(i)
-		//from its next term(i+delta) where delta is 1 and return an object with the properties like state, difference and first Term
+		// This loop iterates through difference array and checks whether the common difference is constant by subtracting the current term(i)
+		// from its next term(i+delta) where delta is 1 and return an object with the properties like state, difference and first Term
 		for (k = lambda; k < difference.length-delta; k++)
 			state = difference[k] === difference[k+delta]
 
@@ -87,7 +87,7 @@ function Arithmetic(){
 	}
 }
 
-//Deploying the function
+// deploying the function
 const arithmetic = new Arithmetic()
 var create = arithmetic.createAP(2, 2, 5)
 var res = arithmetic.getSum(5000, 2000, 12)
@@ -100,5 +100,5 @@ var arithmeticTerm = arithmetic.getTerm(1000, -40, 12)
 var sd = arithmetic.getDifferenceBySum(1000, 12, 9360)
 var apState = arithmetic.isArithmeticProgression(2,3,4,7)
 
-//Exporting the function
+// exporting the function
 module.exports = Arithmetic
