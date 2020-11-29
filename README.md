@@ -9,10 +9,10 @@ The following are the projects purely written in JavaScript
 
 2)geometry.js: to execute geometrical calculations with a few number of weights and inputs
 
-3)intrest.js: calculates the simple and compound intrest and also drafts a report of annualy intrest.
+3)intrest.js: calculates the simple and compound intrest and also drafts a report of annual intrest.
 
 4)musicPlaylist.js: a sample project created with the objective of understanding an array of objects.
 
 5)quadraticEq.js: this project calculates and frames a quadratic equation based on the given coefficient.
 
-The core purpose of this projects is to absorb and understand the datatypes, functions, classes, loops, scoping in JavaScript and trying an convinient, scalable and a flexible approach.
+The core purpose of this projects is to absorb and understand the datatypes, functions, classes, loops, scoping in JavaScript and trying an convinient, scalable and a flexible approach each of the project have their custom algorithms to perform their respective tasks.
