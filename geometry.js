@@ -32,7 +32,7 @@ class Geometry {
 	}
 }
 
-//Deploying the class
+// deploying the class
 const geo = new Geometry()
-//Exporting the class
+// exporting the class
 module.exports = Geometry
